@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1500px) {
+    nav ul {
+        
+ padding-left: 5px;
+    }
+    nav ul li {
+        text-align: center;
+        font-size: 17px;
+        padding-right: 40px;
+        
+    }
+    .columnmain2 {
+        display:none;
+    }
+    .columnmain {
+      float:none;
+    }
+    article{
+        margin-left: 200px;
+    }
+    nav ul li a{
+        text-align: center;
+        padding-left: 40px;
+    }
+   
+
+    
+  }
+
+  @media only screen and (max-width: 1100px){
+    nav ul {
+        padding-left: 5px;
+           }
+           nav ul li {
+               text-align: center;
+               font-size: 15px;
+               padding-right: 10px;  
+           }
+           article{
+            margin-left: 130px;
+        }
+        header{
+            text-align: center;
+            background-color: rgb(250, 250, 250);
+            height: 60px;
+            width: 100%;
+            line-height: 50px;
+            display: block;
+        }
+       header{
+          height: 90px;
+        }
+  }
+  
+
+  @media only screen and (max-width: 700px){
+    nav ul {
+        
+        padding-left: 0px;
+        margin-left: 0%;
+           }
+           nav ul li  {
+               display: none;
+               text-align: center;
+               font-size: 10px;
+               padding-right: 0;
+           }
+           .columnmain2 img{
+               display:none;
+           }
+           article{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .columnmain h1,img,pre,a{
+          padding-right: 100px;
+        }
+        .para1{
+            display: none;
+        }
+        footer .links{
+       display: none;
+        }
+        hr {
+            width: 100%;
+        }
+        .footer-col-3,.footer-col-4{
+            flex-basis:100%;
+        }
+        .hori{
+            width: 10%;
+        }
+  pre{
+      display: none;
+  }
+  .footer h3{
+      margin-bottom: 4px;
+  }
+  .footer-col-2{
+      display: none;
+  }
+  .footer-col-1 h1{
+      margin-left: 0px ;
+  }
+    }

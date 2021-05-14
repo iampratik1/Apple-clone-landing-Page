@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(44, 43, 43);
+    height: 55px;
+    max-width: 100%;
+    line-height: 55px;
+}
+nav ul {
+        list-style: none;
+        padding-left: 0%;
+        display: flex;
+        padding-left: 250px;
+    }
+nav ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    padding-right: 90px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#9c9797;
+    display:block;
+    cursor: pointer;
+}
+/*-----------hover naviagtion link-------*/
+
+nav ul li a:hover{
+     color: white;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    display: block;
+}
+header>p{
+    font-family: 'Open Sans', sans-serif;
+     font-size: 17px;
+     color: gray;
+}
+header p span{
+    font-family: 'Open Sans', sans-serif;
+    color:skyblue;
+    cursor: pointer;
+}
+header p span a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+/* ------header span hover */
+header p span a:hover{
+   text-decoration: underline;
+}
+main div h1{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+}
+main div p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+.link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    cursor: pointer;
+}
+/* ------hover link------ */
+main a:hover{
+text-decoration: underline;
+}
+
+
+div h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+   font-weight: inherit;
+   padding-top: 20px;
+   cursor: pointer;
+}
+div h3 a{
+  text-decoration: none;
+  color: #2b9dca;
+  cursor: pointer;
+}
+.length h3{
+    font-size: 35px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.length p{
+    font-size: 23px;
+    color: #4b4848;
+    padding-bottom: 3px; 
+    cursor: pointer;
+}
+.length a{
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #07658a ;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+.length .para{
+    font-size: 23px;
+    color: #4b4848;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.length2 h1{
+   color: white;
+   font-size: 30px;
+   font-family: 'Open Sans', sans-serif;
+   padding-bottom: 15px;
+   cursor: pointer;
+}
+.length2 h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.length2  p{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.length2 button{
+    background-color: rgb(10, 96, 224);
+    background-size: 140px;
+     border-radius: 40%  40%;
+     border: none;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 4px 2px;
+     cursor: pointer;
+     font-weight: bold;
+    margin-bottom: 37px;
+
+}
+
+/* -------button hover------ */
+.length2 button:hover{
+    background-color: rgb(14, 52, 110);
+}
+.length2 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(10, 96, 224);
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.length3 h1{
+    color: black;
+    text-align: center; 
+    font-size: 60px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.length3 p{
+    color: black;
+    cursor: pointer;
+}
+.length3 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(10, 96, 224);
+    cursor: pointer;
+}
+.length3 .link{
+    color: gray;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.columnmain img{
+    width: 40%;
+    height: 50%;
+    padding-top: 150px;
+    cursor: pointer;
+}
+.columnmain h1{
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.columnmain pre{
+    color: rgba(255, 255, 255, 0.582);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px ;
+}
+.columnmain a{
+    text-decoration: none;
+    color: rgb(10, 96, 224);
+    font-size: 30px;
+    cursor: pointer;
+}
+.columnmain {
+    float: right;
+}
+.columnmain2 h1 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+.columnmain2 span {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+    color: rgb(209, 57, 57);
+}
+.columnmain2 p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.columnmain2 a{
+    font-size: 25px;
+    color: rgb(10, 96, 224);
+    text-decoration: none;
+    cursor: pointer;
+}
+.columnmain2 .image{
+    padding-top: 100px;
+    width: 40%;
+    height: 40%;
+    padding-bottom: 140px;
+}
+
+/* -------hover to links---- */
+.columnmain a:hover{
+    text-decoration: underline;
+}
+.columnmain2 a:hover{
+    text-decoration: underline;
+}
+
+/* ---------footer----------- */
+
+.para1{
+   margin-right: 20%;
+   display: inline-block;
+}
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+}
+.footer h3{
+    color:white;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.footer-col-2 img{
+    width: 100%;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: inherit;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin:20px 0;
+}
+.links li{
+    padding-bottom: 15px;
+}
+.links li a {
+    color:#8a8a8a;
+    font-size: 18px;
+    text-decoration: none;
+}
+.links li a:hover{
+    color:red;
+}
+.container{
+    max-width: 1700px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.row{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+hr{
+   width: 70%;
+   
+}
+.hori{
+    width:88%;
+}
+pre a{
+color: rgb(10, 96, 224);
+text-decoration: none;
+font-size: 15px;
+}
+pre{
+    font-size: 15px;
+    display: block;
+}
+
+
+/* --------footer link hover---- */
+
+.row ul li a:hover{
+    text-decoration: underline;
+}
+.container pre a:hover{
+    text-decoration: underline;
+}
